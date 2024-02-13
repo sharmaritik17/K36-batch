@@ -51,12 +51,25 @@ int main() {
     printf("Bitwise XOR: %d\n", output);
 
     a = 1;
-    output =  ~a;
-    printf("complement of a: %d\n", ~0);
+    printf("complement of a: %d\n", ~ a);
 
     a = 4;
     printf("left shift: %d\n", a << 2);
 
     a = 16;
     printf("right shift: %d\n", a >> 2);
+
+    printf("sizeof operator: %d\n", sizeof(int));
+
+    printf("ternary operator\n");
+
+    a == 16 ? printf("a is 16\n") : printf("a is not 16\n");
+
+    //     //  if(x >= 10) {
+    // //    if(x <= 80)  1 
+    // //     else  2 
+    // //  }
+    // //  else 3;
+
+    // x >=10 ? x <=80 ? 1 : 2 : 3;
 }
